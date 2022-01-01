@@ -1,0 +1,269 @@
+body{
+    background:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: auto;
+    margin: auto;
+}
+.presentation{
+    background-image: url("palaza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff ;
+    box-shadow:5px 5px 3px 1px black;
+    padding: auto;
+    position:fixed;
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    color: #000;
+   
+}
+header .navbar ul li a:hover{
+    transition:all 2s ease-in-out;
+    border-bottom: 1px solid black;
+    transform:scale(50px)
+
+}
+header .navbar ul li{
+    text-decoration: none;
+    float: left;
+    padding: 15px 20px;
+}
+/*******section*******/
+.presentation{
+    background-color: #fff;
+    padding: 190px 100px;
+    padding-bottom: 20%;
+
+}
+.marque{
+    text-transform: uppercase;
+    color: #fff;
+}
+.marque p{
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow:5px 5px 3px 1px black;
+}
+.h-presentation{
+    display: flex;
+    margin:20px;
+    padding:20px;
+}
+.h-presentation-image{
+    padding-right: 40px;
+    margin-top: 300px;
+}
+h-presentation-image img:hover{
+    transform: translateX(50px);
+    cursor: pointer;
+}
+
+.presentation-text{
+    margin-top: 300px;
+}
+/*******LOISIRS*******/
+
+
+
+
+
+.gauche{
+    border: 2px solid black;
+    width: 300px;
+    height: 800px;
+    
+    margin-left: 45px;
+    background-color: wheat;
+    float :left;
+    
+}
+.droite{
+    border: 2px solid black;
+    width: 300px;
+    height: 800px;
+    box-shadow: 15px 15px 15px black;
+    float: right;
+    margin-top: -800px;
+    margin-right: 45px;
+    background-color: wheat;
+}
+.centre{
+    border: 1px solid black;
+    width: 530px;
+    height: 800px;
+    box-shadow: 15px 15px 15px black;
+    text-align: center;
+    margin-top: -850px;
+    margin-left: 400px;
+    border: none;
+}
+.image1{
+    margin-left: 10px;
+    text-align: center;
+}
+.image2{
+    margin-left: 10px;
+    text-align: center;
+}
+.image3{
+    margin-left: 10px;
+    text-align: center;
+}
+.image4{
+    margin-left: 10px;
+    text-align: center;
+}
+.image5{
+    margin-left: 10px;
+    text-align: center;
+
+}
+.image6{
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{
+  padding-left: 50px;
+    text-transform:capitalize;
+    font-size: 25px;
+}
+.cv-body{
+    background-color: white;
+    padding: 200px 300Px;
+    border: 2px solid black;
+    margin-right: 70px;
+    margin-left: 70px;
+
+}
+.SS p{
+    padding-left: 70px;
+    font-size: 25px;
+}
+h6{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#mm{
+    text-transform: capitalize;
+    padding-left: 50px;
+    font-size: 35px;
+    background-color:gray;;
+}
+.DG{
+    padding-left: 70px;
+    font-size: 20px;
+}
+#oo{
+    text-transform: capitalize;
+    padding-left: 50px;
+    font-size: 35px;
+    background-color:gray;;
+}
+.ki{
+    padding-left: 70px;
+    font-size: 20px;
+}
+#lo{
+    text-transform: capitalize;
+    padding-left: 50px;
+    font-size: 35px;
+    background-color:gray;;
+}
+.IL{
+    padding-left: 70px;
+    font-size: 20px;
+}
+#loo{
+    text-transform: capitalize;
+    padding-left: 50px;
+    font-size: 35px;
+    background-color: gray;;
+}
+.iyo{
+    padding-left: 70px;
+    font-size: 20px;
+}
+#rt{
+    text-transform: capitalize;
+    padding-left: 50px;
+    font-size: 35px;
+    background-color:gray;
+}
+.yuyu{
+    padding-left: 70px;
+    font-size: 20px;
+}
+.mapo{
+    margin-top: 185px;
+}
+
+.pop{
+    text-align: center;
+}
+#ea{
+    height: 25px;
+    width: 250px;
+}
+#e{
+    height: 25px;
+    width: 250px;
+}
+#ei{
+    height: 25px;
+    width: 250px;
+}
+#ej{
+    height: 25px;
+    width: 250px;
+}
+#ep{
+    height: 90px;
+    width: 550px;
+}
+.button-3{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: rosybrown;
+}
+.button-3:hover{
+    color: red;
+}
+.KAQ{
+    text-align: center;
+}
+/*footer*/
+footer{
+    background-image: url('images/téléchargement\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 690px;
+    max-width: 100%;
+    padding-bottom: 55px;
+}
+footer .emma,p{
+    text-align: center;
+}
+@media screen and(max-width:700px){
+    
+}
